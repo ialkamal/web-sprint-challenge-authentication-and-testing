@@ -1,5 +1,4 @@
 // Write your tests here
-// get Jokes, register and login
 
 const request = require("supertest");
 const db = require("../data/dbConfig");
