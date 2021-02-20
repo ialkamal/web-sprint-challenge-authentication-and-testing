@@ -66,7 +66,7 @@ describe("Test Auth Endpoint", () => {
       expect(res.body.token).toBeDefined();
     });
 
-    test("if returned status code and error message are correct upon missing password", async () => {
+    test("if returned status code and error message are correct upon incorrect password", async () => {
       let res = await request(server)
         .post("/api/auth/login")
         .send(user2)
