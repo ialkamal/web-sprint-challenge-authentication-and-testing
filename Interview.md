@@ -1,3 +1,5 @@
+## Interview Questions
+
 # Differences between using sessions or JSON Web Tokens for authentication.
 
 1. In sessions, the session information is stored and validated in the backend but in JSON Web tokens the token should be manually stored in the client and sent with each request to the server.
